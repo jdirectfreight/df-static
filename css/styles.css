@@ -36,8 +36,8 @@
     font-weight: 400;
     font-display: swap;
     src: local(''),
-        url('/home/fonts/open-sans-v26-latin-regular.woff2') format('woff2'),
-        url('/home/fonts/open-sans-v26-latin-regular.woff') format('woff');
+        url('https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@main/fonts/open-sans-v26-latin-regular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@main/fonts/open-sans-v26-latin-regular.woff') format('woff');
 }
 
 @font-face {
@@ -46,8 +46,8 @@
     font-weight: 700;
     font-display: swap;
     src: local(''),
-        url('/home/fonts/open-sans-v26-latin-700.woff2') format('woff2'),
-        url('/home/fonts/open-sans-v26-latin-700.woff') format('woff');
+        url('https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@main/fonts/open-sans-v26-latin-700.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@main/fonts/open-sans-v26-latin-700.woff') format('woff');
 }
 
 
