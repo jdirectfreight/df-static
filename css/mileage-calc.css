@@ -1,0 +1,381 @@
+@media print {
+	#header,
+	#footer,
+	.btns {
+		display: none !important;
+	}
+}
+
+#mileage-calc {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+}
+
+#mileage-calc h2 {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+#mileage-calc h2 .fa {
+	cursor: pointer;
+	margin-left: auto;
+}
+
+#mileage-calc .form-element.destination {
+	align-items: baseline;
+}
+
+#mileage-calc .destination .inputs {
+	display: flex;
+	flex-direction: column;
+	max-width: 430px;
+	width: 100%;
+}
+
+#mileage-calc .destination .inputs .button {
+	align-self: flex-end;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100px;
+}
+
+#mileage-form {
+	display: none;
+}
+
+#results {
+	padding-top: 20px;
+}
+
+.btns {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.btns-results {
+	margin: 0 0 35px;
+}
+
+#mileage-calc .select2 {
+	max-width: 430px;
+}
+
+#map {
+	background-color: grey;
+	height: 400px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.form-element {
+	align-items: center;
+	color: #8c8c8c;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 14px;
+	margin: 15px 0;
+}
+
+.form-element label {
+	color: #555;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 55px;
+	min-width: 280px;
+	text-align: right;
+	width: 280px;
+}
+
+.form-element input[type="text"] {
+	background-color: #f5f5f5;
+	border: none;
+	border-radius: 0;
+	font-size: 14px;
+	height: 40px;
+}
+
+.form-element span.left {
+	margin-right: 5px;
+}
+
+.form-element span.right {
+	margin-left: 5px;
+}
+
+.form-element select {
+	color: #8c8c8c;
+	font-size: 14px;
+}
+
+.form-element .select2-selection {
+	background-color: #f5f5f5;
+	border: none;
+	border-radius: 0;
+	font-size: 14px;
+	margin: 0;
+	max-width: 860px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	right: 5px;
+}
+
+.form-element .radio-set {
+	width: 180px;
+}
+
+.form-element .radio-set label {
+	color: #8c8c8c;
+	font-weight: normal;
+}
+
+#mileage-calc hr {
+	background-color: #ddd;
+	margin: 40px 0;
+	width: 100%;
+}
+.form-controls .button {
+	margin-left: 28%;
+}
+
+#results {
+	display: none;
+}
+
+.tbl {
+	margin: 0 0 40px;
+	width: 100%;
+}
+
+#mileage-calc .tbl.hide-rows {
+	margin: 0;
+}
+
+#mileage-calc .tbl.hide-rows h2 {
+	margin: 0;
+}
+
+#mileage-calc .tbl.hide-rows thead tr:not(:first-child),
+#mileage-calc .tbl.hide-rows tbody tr {
+	display: none;
+}
+
+#mileage-calc .tbl thead th h2 {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.tbl th {
+	font-weight: bold;
+}
+
+.tbl th,
+.tbl td {
+	padding: 10px;
+}
+
+.tbl tr:nth-child(even) {
+	background-color: #f5f5f5;
+}
+
+.directions li span.arrow {
+  display:inline-block;
+  min-width:28px;
+  min-height:28px;
+  background-position:0px;
+  background-image: url("../img/arrows.png");
+  position:relative;
+  top:8px;
+}
+
+.directions li span.depart  {
+  background-position:-28px;
+}
+
+.directions li span.rightUTurn  {
+  background-position:-56px;
+}
+
+.directions li span.leftUTurn  {
+  background-position:-84px;
+}
+
+.directions li span.rightFork  {
+  background-position:-112px;
+}
+
+.directions li span.leftFork  {
+  background-position:-140px;
+}
+
+.directions li span.rightMerge  {
+  background-position:-112px;
+}
+
+.directions li span.leftMerge  {
+  background-position:-140px;
+}
+
+.directions li span.slightRightTurn  {
+  background-position:-168px;
+}
+
+.directions li span.slightLeftTurn{
+  background-position:-196px;
+}
+
+.directions li span.rightTurn  {
+  background-position:-224px;
+}
+
+.directions li span.leftTurn{
+  background-position:-252px;
+}
+
+.directions li span.sharpRightTurn  {
+  background-position:-280px;
+}
+
+.directions li span.sharpLeftTurn{
+  background-position:-308px;
+}
+
+.directions li span.rightRoundaboutExit1 {
+  background-position:-616px;
+}
+
+.directions li span.rightRoundaboutExit2 {
+  background-position:-644px;
+}
+
+.directions li span.rightRoundaboutExit3 {
+  background-position:-672px;
+}
+
+.directions li span.rightRoundaboutExit4 {
+  background-position:-700px;
+}
+
+.directions li span.rightRoundaboutPass {
+  background-position:-700px;
+}
+
+.directions li span.rightRoundaboutExit5 {
+  background-position:-728px;
+}
+
+.directions li span.rightRoundaboutExit6 {
+  background-position:-756px;
+}
+
+.directions li span.rightRoundaboutExit7 {
+  background-position:-784px;
+}
+
+.directions li span.rightRoundaboutExit8 {
+  background-position:-812px;
+}
+
+.directions li span.rightRoundaboutExit9 {
+  background-position:-840px;
+}
+
+.directions li span.rightRoundaboutExit10 {
+  background-position:-868px;
+}
+
+.directions li span.rightRoundaboutExit11 {
+  background-position:896px;
+}
+
+.directions li span.rightRoundaboutExit12 {
+  background-position:924px;
+}
+
+.directions li span.leftRoundaboutExit1  {
+  background-position:-952px;
+}
+
+.directions li span.leftRoundaboutExit2  {
+  background-position:-980px;
+}
+
+.directions li span.leftRoundaboutExit3  {
+  background-position:-1008px;
+}
+
+.directions li span.leftRoundaboutExit4  {
+  background-position:-1036px;
+}
+
+.directions li span.leftRoundaboutPass {
+  background-position:1036px;
+}
+
+.directions li span.leftRoundaboutExit5  {
+  background-position:-1064px;
+}
+
+.directions li span.leftRoundaboutExit6  {
+  background-position:-1092px;
+}
+
+.directions li span.leftRoundaboutExit7  {
+  background-position:-1120px;
+}
+
+.directions li span.leftRoundaboutExit8  {
+  background-position:-1148px;
+}
+
+.directions li span.leftRoundaboutExit9  {
+  background-position:-1176px;
+}
+
+.directions li span.leftRoundaboutExit10  {
+  background-position:-1204px;
+}
+
+.directions li span.leftRoundaboutExit11  {
+  background-position:-1232px;
+}
+
+.directions li span.leftRoundaboutExit12  {
+  background-position:-1260px;
+}
+
+.directions li span.arrive  {
+  background-position:-1288px;
+}
+
+.directions li span.leftRamp  {
+  background-position:-392px;
+}
+
+.directions li span.rightRamp  {
+  background-position:-420px;
+}
+
+.directions li span.leftExit  {
+  background-position:-448px;
+}
+
+.directions li span.rightExit  {
+  background-position:-476px;
+}
+
+.directions li span.ferry  {
+  background-position:-1316px;
+}
+
+@media (max-width: 959px) {
+	.btns-results {
+		margin: 0 10px 35px;
+	}
+}

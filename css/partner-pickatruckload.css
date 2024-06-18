@@ -1,0 +1,74 @@
+
+/* Header colors */
+.embed-site #nav {
+	background-color: #1f2b4b;
+}
+@media (min-width: 716px) {
+	.embed-site #tabs .tab-nav {
+		background: #fff;
+		border-bottom: 1px solid #1f2b4b;
+	}
+	.embed-site #tabs .tab-nav ul ul {
+		background: #1f2b4b;
+	}
+	.embed-site #nav .top-level > li > a {
+		color: #1f2b4b;
+	}
+	.embed-site .arrow-down::after {
+		border-top-color: #1f2b4b;
+	}
+}
+
+
+/* Everything else */
+h1,h2,h3,h4,h5,h6,
+.frm h1 {
+	color: #1f2b4b;
+}
+.type-tabs .tab,
+.button.orange,
+.button.noaction,
+#copyright,
+#copyright::before {
+	background: #de8e3f;
+}
+button.button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.button,
+.site-info,
+.site-info::before,
+.type-tabs .default-active,
+.type-tabs .subscribed-tab {
+	background: #1f2b4b;
+}
+.button.text {
+	color: #1f2b4b !important;
+}
+
+.full th {
+	background: #1f2b4b;
+	border-left-color: #000;
+}
+
+.premium-features ul .icon {
+	filter: saturate(0.6);
+}
+
+@media (min-width: 716px) {
+	#tabs .tab-nav ul li a:hover {
+		color: #de8e3f;
+	}
+
+        /* hide the carrier/shipper menus */
+	.embed-site #tabs .tab > a { display: none; }
+
+}
+
+/* hide the DF logo */
+.embed-site .brand-wrapper #logo { display: none !important; } 
+
+/* hide the phone and my account */
+.embed-site .quicklinks { display: none !important; }
+

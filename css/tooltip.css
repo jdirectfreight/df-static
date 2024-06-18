@@ -1,0 +1,37 @@
+.hideLoad {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.hideLoad .tooltip {
+	position:absolute;
+	background-color: #efe;
+	box-shadow: 5px 5px 5px #ddd;
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.tooltip {
+	padding: 6px 1em 1em 1em;
+}
+
+.colorXRed {
+	color: red;
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.colorXGreen {
+	color: green;
+	font-size: larger;
+	font-weight: bolder;
+}
+
+
+.hideLoad .tooltip[aria-hidden='true'] {
+	display: none;
+}
+
+.hideLoad .tooltip[area-hidden='false'] {
+	display: block;
+}

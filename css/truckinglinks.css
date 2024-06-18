@@ -1,0 +1,74 @@
+/*--Trucking Links Page--*/
+
+#helpful-links a {
+	text-decoration: none;
+}
+
+.categories,
+.links {
+	float: left;
+	margin-bottom: 30px;
+}
+
+#link-categories,
+#links {
+	background: #f1f1f1;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.categories {
+	width: 100%;
+}
+#link-categories {
+	min-height: 460px;
+}
+
+.links {
+	width: 100%;
+}
+#links {
+	height: 460px;
+	overflow: auto;
+}
+#helpful-links #links ul {
+	list-style: none;
+	padding: 0;
+	margin: 3px 0 35px;
+	width: 505px;
+}
+#links li + h4 {
+	margin-top: 20px;
+}
+#links a:visited {
+	color: #afafaf;
+}
+
+
+/*---------------------------------------- Minimum width of 640 pixels. ----------------------------------------*/
+@media screen and (min-width: 640px) {
+
+
+	.categories {
+		width: 30%;
+	}
+	.links {
+		width: 70%;
+	}
+
+
+}
+
+
+
+
+
+/*---- IE 6-8 media queries and rules ---*/
+
+/*---- Min width 640px ---*/
+.lt-ie9 .categories {
+	width: 30%;
+}
+.lt-ie9 .links {
+	width: 70%;
+}

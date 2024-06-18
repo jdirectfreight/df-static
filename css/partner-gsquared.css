@@ -1,0 +1,95 @@
+#header {
+        display: none;
+        }
+
+/* Header colors */
+.embed-site #nav {
+	background-color: #14213d;
+}
+@media (min-width: 716px) {
+	.embed-site #tabs .tab-nav {
+		background: #fff;
+		border-bottom: 1px solid #14213d;
+	}
+	.embed-site #tabs .tab-nav ul ul {
+		background: #14213d;
+	}
+	.embed-site #nav .top-level > li > a {
+		color: #14213d;
+	}
+	.embed-site .arrow-down::after {
+		border-top-color: #14213d;
+	}
+}
+
+
+/* Everything else */
+h1,h2,h3,h4,h5,h6,
+.frm h1 {
+	color: #14213d;
+}
+.type-tabs .tab,
+.button.orange,
+.button.noaction,
+#copyright,
+#copyright::before {
+	background: #5ea7db;
+}
+button.button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.button,
+.site-info,
+.site-info::before,
+.type-tabs .default-active,
+.type-tabs .subscribed-tab {
+	background: #14213d;
+}
+.button.text {
+	color: #14213d !important;
+}
+
+.full th {
+	background: #14213d;
+	border-left-color: #000;
+}
+
+.premium-features ul .icon {
+	filter: saturate(0.6);
+}
+
+@media (min-width: 716px) {
+	#tabs .tab-nav ul li a:hover {
+		color: #5ea7db;
+	}
+
+        /* hide the carrier/shipper menus */
+	.embed-site #tabs .tab > a { display: none; }
+
+}
+
+@media (min-width: 960px) {
+	#results-map li:nth-child(2n+1) a,
+	#results-map a {
+		background: #14213d;
+	}
+}
+
+/* hide the DF logo */
+.embed-site .brand-wrapper #logo { display: none !important; } 
+
+/* hide the phone and my account */
+.embed-site .quicklinks { display: none !important; }
+
+.button.noaction:hover,
+.button.noaction:active,
+.button.noaction:focus {
+	background: #295f95;
+}
+
+.button.orange:hover,
+.button.orange:active,
+.button.orange:focus {
+	background: #295f95;
+}

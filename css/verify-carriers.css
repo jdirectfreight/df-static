@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/home/fonts/open-sans-v35-latin-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/home/fonts/open-sans-v35-latin-700.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url('/home/fonts/open-sans-v35-latin-800.woff2') format('woff2');
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+a:link,
+a:visited {
+    color: #466BA1;
+    text-decoration: none;
+}
+a:not(.button):hover,
+a:not(.button):focus {
+    text-decoration: underline
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container > * {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    width: 100%;
+}
+.container > * + * {
+    margin-top: 2rem;
+}
+
+.buttons-row {
+    display: flex;
+    gap: 20px;
+}
+.button {
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 15px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0,0,0,.25);
+}
+.button-orange {
+    background: #f99c16;
+    color: #fff;
+}
+.button-clear-outline {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.button-clear-outline:link,
+.button-clear-outline:visited,
+.button-orange:link,
+.button-orange:visited {
+    color: #fff;
+}
+.button-orange:hover,
+.button-orange:focus {
+    background: #d68d0e;
+}
+.button-clear-outline:hover,
+.button-clear-outline:focus {
+   background: #3a5d8f;
+}
+
+.color-blue {
+    color: #466BA1;
+}
+.color-orange {
+    color: #f99c16;
+}
+.color-white {
+    color: #fff;
+}
+
+.text-align-center {
+    text-align: center;
+}
+.font-bold {
+    font-weight: 700;
+}
+
+.underline-orange::after {
+    content: "";
+    display: block;
+    background: #f99c16;
+    height: 3px;
+    width: 60px;
+    margin: 30px auto 0;
+}
+.underline-orange_left::after {
+    margin-left: 0;
+}
+
+.prevent-break {
+    white-space: pre;
+}
+
+.section-opening {
+    background: #E9EBEA url('../images/bg-verify-carriers-truck-road.jpg') no-repeat center center;
+    background-size: cover;
+    gap: 8vw 35px;
+    padding: 25px 15px calc(6vw + 80px);
+}
+.faux-heading {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.h1 {
+    font-size: clamp(35px, calc(2.1875rem + ((1vw - 3.2px) * 1.875)), 65px);
+    font-weight: 800;
+}
+.section-opening .flex-col {
+    gap: 2rem;
+}
+@media (max-width: 380px) {
+    .site-logo {
+        width: 115px;
+    }
+}
+@media (max-width: 349px) {
+    .section-opening {
+        padding-bottom: calc(6vw + 50px)
+    }
+}
+@media (min-width: 500px) {
+    .top-phone {
+        font-size: 20px;
+    }
+}
+
+
+.section-summary {
+    background: #fff;
+    padding: calc(2vw + 50px) 15px calc(4vw + 50px);
+}
+.section-summary .flex-row {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 170px 70px;
+}
+.section-summary .flex-row > * {
+    flex: 1 0 270px;
+}
+.txt-opening-message {
+    font-size: clamp(22px, calc(1.375rem + ((1vw - 3.2px) * 0.8125)), 35px);
+}
+.box-checkboxes {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 40px 0 rgb(70 107 161 / 41%);
+    margin: calc(-120px + -2vw) 20px 0;
+    padding: 10px 30px;
+}
+.list-checkboxes {
+    font-size: clamp(16px, calc(1rem + ((1vw - 3.2px) * 0.5)), 24px);
+    font-weight: 700;
+    list-style: none;
+    padding: 0;
+}
+.list-checkboxes li {
+    display: flex;
+    margin: 18px 0;
+}
+.list-checkboxes li::before {
+    content: "";
+    background: url(../images/icon-checkmark-orange.svg) 0 7px no-repeat;
+    background-size: 20px;
+    flex: 0 0 40px;
+    height: 25px;
+    width: 30px;
+}
+@media (max-width: 680px) {
+    .txt-opening-message {
+        text-align: center;
+    }
+    .txt-opening-message.underline-orange_left::after {
+        margin-left: auto;
+    }
+}
+@media (max-width: 350px) {
+    .box-checkboxes {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+
+.section-posting {
+    background: #466BA1;
+    padding: calc(3vw + 40px) 15px;
+}
+.h2-posting {
+    font-size: clamp(25px, calc(1.5625rem + ((1vw - 3.2px) * 1.5625)), 50px);
+    font-weight: 800;
+}
+.section-posting p {
+    font-size: clamp(20px, calc(1.25rem + ((1vw - 3.2px) * 0.6875)), 31px);
+    line-height: 1.5;
+}
+
+.section-partners {
+    background: #fff;
+    padding: calc(2vw + 40px) 15px;
+}
+.partners-h2 {
+    font-size: clamp(22px, calc(1.375rem + ((1vw - 3.2px) * 1.125)), 40px);
+    font-weight: 700;
+}
+
+
+.list-tms-partners {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    padding: 20px 0 0;
+}
+@media (max-width: 390px) {
+    .list-tms-partners li {
+        padding: 0 15px;
+    }
+    .list-tms-partners img {
+        height: 30px;
+        width: auto;
+        max-width: 95px;
+    }
+}
+
+
+.section-copyright {
+    background: #f99c16;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+.section-copyright p {
+    margin: 0;
+}
+
+
+@media (max-width: 599px) {
+    .section-copyright p {
+        width: 100%;
+    }
+}

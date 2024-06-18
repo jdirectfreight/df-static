@@ -1,0 +1,349 @@
+
+.m-result {
+	background: transparent;
+	padding: 0;
+}
+.m-result-nav,
+.m-result-nav li {
+	display: flex;
+}
+.m-result-nav {
+	z-index: 10;
+	width: 100%;
+	overflow-x: auto;
+}
+.m-result-nav li {
+	border-right: 1px solid #315991;
+}
+.m-result-nav a {
+	display: flex;
+	align-items: center;
+	background: #5277aa;
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+	padding: 12px;
+}
+.m-result-nav a:hover,
+.m-result-nav a:active {
+	color: #f7ab27;
+	text-decoration: none;
+}
+.m-result-nav .active {
+	background: #f99c16;
+	color: #fff;
+}
+.m-result-nav .active:hover,
+.m-result-nav .active:active {
+	color: #315991;
+}
+.m-result-content {
+	padding-top: 40px;
+}
+.m-result-content section {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+	padding: 20px 10px;
+}
+.m-result-content section > * {
+	min-width: 280px;
+	padding: 0 30px;
+}
+.m-result-content section > div {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 50%;
+	text-align: left;
+}
+
+a.m-result-nav-back {
+	display: none;
+	flex: 1 0 100%;
+	background: #115688;
+	color: #fff;
+	text-align: left;
+	padding: 10px 25px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.m-result-nav-back::before {
+	content: "";
+	position: absolute;
+	top: 12px;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 10px solid orange;
+	margin-left: -18px;
+}
+
+.m-result-content .profit-report-premium {
+	align-items: center;
+	top: 40px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+}
+.profit-report-premium.offset {
+	justify-content: flex-start;
+	padding-top: 15%;
+}
+.m-result-content .profit-report-premium b {
+	text-align: center;
+	max-width: 300px;
+}
+
+hr {
+	width: 100%;
+}
+
+/* Shared */
+[onclick^=click_toggle] {
+	cursor: pointer;
+}
+
+/* Additional Load Details */
+#div-note {
+	padding: 10px;
+	border: solid 1px #fdb316;
+	margin-top: 15px;
+}
+.note_title,
+.note_body {
+	max-width: 100% !important;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.result-exec-summary p {
+	font-size: 14px;
+	padding: 0;
+}
+
+/* Freight Rate Info */
+.fr-heading {
+	display: flex;
+	width: 100%;
+	max-width: 730px;
+	margin: 10px auto 0;
+}
+.fr-heading-item {
+	flex: 1 0 0;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+	padding: 12px 10px;
+}
+.fr-heading-item span {
+	display: block;
+	font-size: 30px;
+}
+.result-freight-rate {
+	width: 100%;
+	border: solid 2px #5277aa;
+	padding: 0 10px 10px;
+	margin: 20px auto 30px;
+}
+.fr-graph-title {
+	color: #577596;
+	margin: 10px 0;
+}
+.fr-graph {
+	direction: rtl;
+}
+.result-freight-rate label {
+	color: #fff;
+	padding: 5px 10px 5px 5px;
+	border: solid 1px #fff;
+	margin: 0 5px 10px 0;
+}
+
+/* Calculator */
+#profit-calc [aria-expanded]::after {
+	content: "";
+	display: inline-block;
+	position: relative;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #3f51b5;
+	height: 0;
+	width: 0;
+	margin-left: 10px;
+	top: -2px;
+}
+#profit-calc [aria-expanded=true]::after {
+	border-top: none;
+	border-bottom: 5px solid #3f51b5;
+}
+
+/* Booking */
+#book-box {
+	flex-basis: 130px;
+	font-size: 20px;
+	line-height: 1.2;
+	padding: 15px 30px 25px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	margin-top: 20px;
+        height: fit-content;
+}
+
+.book-box-confirm-msg {
+	color: red;
+	font-size: 16px;
+	padding: 15px 0 0;
+}
+
+
+/* Credit Report */
+.cr-section {
+	padding: 15px;
+	border: 1px solid #e6eaf2;
+	border-top: 4px solid #fdb316;
+	border-radius: 4px;
+	margin-bottom: 25px;
+}
+
+.cr-section h2[aria-expanded=false] + .section-content {
+	opacity: 0;
+	animation: opacity-display .3s;
+}
+.cr-section h2[aria-expanded=false] + .section-content {
+	display: none;
+}
+.cr-section h2,
+.cr-section p {
+	padding: 0;
+}
+.cr-section h3 {
+	margin: 30px 0;
+}
+.cr-section {
+	width: 100%;
+}
+.cr-section table:not(.cr-table) {
+	margin-left: -8px;
+}
+.cr-section th,
+.cr-section td {
+	padding: 8px;
+}
+.cr-table {
+	font-size: 15px;
+	width: 100%;
+}
+.cr-table thead {
+	border: 1px solid #5277aa;
+}
+.cr-table tbody {
+	border: 1px solid #ccc;
+}
+.cr-table th {
+	background: #5277aa;
+	color: #fff;
+}
+.col-stripe tr td:nth-of-type(even) {
+	background-color: rgba(82,119,170,0.1);
+}
+.cr-section th {
+	font-weight: 700;
+}
+.cr-section [scope='row'] {
+	position: relative;
+	width: 260px;
+	padding-right: 40px;
+}
+.cr-section [scope='row']::after {
+	content: ":";
+	position: absolute;
+	top: calc(50% - 9px);
+	right: 20px;
+}
+.cr-table tbody tr:nth-child(even) {
+	background: #e8e8e8;
+}
+.cr-scores {
+	margin-bottom: 20px;
+}
+.cr-scores > * {
+	flex: 1 0 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 80%;
+	padding: 8px 10px;
+}
+.circles {
+	justify-content: space-around;
+	margin: 10px 0 30px;
+}
+.circles h2 {
+	color: #000;
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+.circles h2 span {
+	font-size: 20px;
+}
+.circle-blue,
+.circle-orange {
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+}
+.circle-blue {
+	background: #5277aa;
+	border: 15px solid #a3b7d2;
+}
+.circle-orange {
+	background: #ffb221;
+	border: 15px solid #ffd992;
+}
+
+
+@media (max-width: 767px) {
+
+	.circles {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.circles h2 {
+		font-size: 25px;
+	}
+	.circle-blue {
+		margin-bottom: 20px;
+	}
+
+	/*-Credit-*/
+	#credit-report {
+		font-size: 14px;
+	}
+	#credit-report > div {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/*-Mileage-*/
+	#mileage .tbl {
+		font-size: 14px;
+	}
+	#mileage-calc .tbl thead th h2 {
+		max-width: 83vw;
+	}
+}
+
+@media (max-width: 640px) {
+
+	.fr-heading {
+		flex-direction: column;
+	}
+}
