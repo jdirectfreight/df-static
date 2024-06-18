@@ -410,7 +410,7 @@ textarea {
 }
 
 select:not([multiple]) {
-    background: #fff url(/home/images/sprite-items-v19.png) right -466px no-repeat;
+    background: #fff url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/sprite-items-v19.png) right -466px no-repeat;
     height: 34px;
     padding: 0 15px 0 5px;
 }
@@ -814,7 +814,7 @@ td>.button {
 }
 
 .frm select:not([multiple]) {
-    background: #fff url(/home/images/sprite-items-v19.png) right -466px no-repeat;
+    background: #fff url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/sprite-items-v19.png) right -466px no-repeat;
     height: 38px;
     max-height: none;
     padding: 0 15px 0 8px;
@@ -931,13 +931,13 @@ td>.button {
 }
 
 #receipt #loads-container {
-    background: url(../../images/loads-bg.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/loads-bg.png) no-repeat;
     height: 300px;
     width: 585px;
 }
 
 #receipt #trucks-container {
-    background: url(../../images/trucks-bg.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/trucks-bg.png) no-repeat;
     height: 300px;
     width: 585px;
 }
@@ -1388,7 +1388,7 @@ td.sortBy {
 a.question,
 a.wrench {
     display: inline-block;
-    background: url(/home/images/sprite-items-v19.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/sprite-items-v19.png) no-repeat;
     text-indent: 100%;
     overflow: hidden;
     white-space: nowrap;
@@ -1738,7 +1738,7 @@ fieldset h3 {
 }
 
 #nav-toggle span {
-    background: url(/home/images/sprite-items-v19.png) -273px -231px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/sprite-items-v19.png) -273px -231px no-repeat;
     padding-left: 30px;
 }
 
@@ -1816,7 +1816,7 @@ fieldset h3 {
 
 .premium-features .icon.blue-lock {
     display: block;
-    background: url(/home/images/sprite-items-v19.png) -120px -324px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/sprite-items-v19.png) -120px -324px no-repeat;
     height: 29px;
     width: 18px;
     margin: 0 auto 15px;
@@ -1824,7 +1824,7 @@ fieldset h3 {
 
 .premium-features ul .icon {
     display: block;
-    background: url(/home/images/sprite-premium-features.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/sprite-premium-features.png) no-repeat;
     margin: 8px auto 7px;
 }
 
@@ -2003,7 +2003,7 @@ span.icon.box-lock {
 
 .our-partners a {
     display: block;
-    background: url(/home/images/our-sponsors-sprite-v2.png) 0 0 no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/our-sponsors-sprite-v2.png) 0 0 no-repeat;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -2268,7 +2268,7 @@ span.icon.box-lock {
 .features .icon {
     display: block;
     float: left;
-    background: url(/home/images/sprite-items-v19.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/sprite-items-v19.png) no-repeat;
     height: 27px;
     width: 26px;
     margin: 0 20px 10px 0;
@@ -2486,7 +2486,7 @@ span.icon.box-lock {
 
 .quotes {
     position: relative;
-    background: #44413f url('/home/images/bg-quotes-truck-road.jpg') top center no-repeat;
+    background: #44413f url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/bg-quotes-truck-road.jpg) top center no-repeat;
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -2932,7 +2932,7 @@ blockquote {
 .credit-report::after,
 .view-document::after {
     content: "";
-    background: url(/home/images/sprite-items-v19.png) 100% -147px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/sprite-items-v19.png) 100% -147px no-repeat;
     vertical-align: text-bottom;
     height: 14px;
     width: 14px;
@@ -3314,7 +3314,7 @@ blockquote {
 
 .importance+label span {
     display: inline-block;
-    background: url(/home/images/sprite-form-elements.png) 0 0 no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/sprite-form-elements.png) 0 0 no-repeat;
     width: 19px;
     height: 19px;
     cursor: pointer;
@@ -3961,7 +3961,7 @@ input:disabled+img+span {
 
     /*-------------- page search results --------------*/
     .swipe-message {
-        background: #dedede url(/home/images/results-swipe-left-right.png) center no-repeat;
+        background: #dedede url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/results-swipe-left-right.png) center no-repeat;
         background-size: contain;
         height: 60px;
     }
@@ -4736,7 +4736,7 @@ input:disabled+img+span {
     .phonenumber::before {
         content: "";
         display: inline-block;
-        background: url(/home/images/sprite-items-v19.png) -220px -149px no-repeat;
+        background: url(https://cdn.jsdelivr.net/gh/jdirectfreight/df-static@latest/images/sprite-items-v19.png) -220px -149px no-repeat;
         height: 15px;
         width: 11px;
     }
@@ -5585,7 +5585,7 @@ input:disabled+img+span {
 }
 
 .ui-autocomplete-loading {
-    background: white url('images/ui-anim_basic_16x16.gif') right center no-repeat;
+    background: white url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/images/ui-anim_basic_16x16.gif) right center no-repeat;
 }
 
 .select2-match {
